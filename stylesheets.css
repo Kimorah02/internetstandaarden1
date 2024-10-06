@@ -52,13 +52,11 @@ a {
     transition: transform 0.5s ease;
 }
 
-/* dit is de kleur die veranderd als je muis erover heen gaat */
 a:hover  {
     color:palevioletred;
     transform: scale(1.2) rotate(360deg); /*dit vergoot en draait de link bij de hover*/
     cursor: pointer;
 }
-
 
 ul {
     display: flex; 
@@ -69,8 +67,6 @@ ul {
 nav ul li {
     display: flex;
     list-style-type: none;
-    gap: 2rem;
-
     margin: 4px;;
     border:2px solid black;
     background:rgb(217, 157, 182);
